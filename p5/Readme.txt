@@ -1,0 +1,1 @@
+I have not uploaded the trained model because little if you download and run the script after uncommenting the model saving code in notebook it will automatically saved in your system
