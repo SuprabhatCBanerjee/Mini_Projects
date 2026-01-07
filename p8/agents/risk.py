@@ -1,18 +1,3 @@
-# from langchain_core.prompts import ChatPromptTemplate
-# from core.llm import llm
-
-# prompt = ChatPromptTemplate.from_messages([
-#     ("system",
-#      "You are the Risk Guardian Agent. Identify failure modes, liabilities, and edge cases."),
-#     ("human", "{question}")
-# ])
-
-# def run_risk(state):
-#     response = llm.invoke(
-#         prompt.format_messages(question=state["question"])
-#     )
-#     return {"risk_view": response.content}
-
 from langchain_core.prompts import ChatPromptTemplate
 from core.llm import llm
 from shared.timing import timed
