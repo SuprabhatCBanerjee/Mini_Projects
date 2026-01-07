@@ -1,18 +1,3 @@
-# from langchain_core.prompts import ChatPromptTemplate
-# from core.llm import llm
-
-# prompt = ChatPromptTemplate.from_messages([
-#     ("system",
-#      "You are the Cost & Feasibility Agent. Focus on cost, complexity, and practicality."),
-#     ("human", "{question}")
-# ])
-
-# def run_cost(state):
-#     response = llm.invoke(
-#         prompt.format_messages(question=state["question"])
-#     )
-#     return {"cost_view": response.content}
-
 from langchain_core.prompts import ChatPromptTemplate
 from core.llm import llm
 from shared.timing import timed
