@@ -1,0 +1,9 @@
+langchain
+langgraph
+huggingface_hub
+fastapi
+uvicorn
+streamlit
+pydantic
+python-dotenv
+requests
