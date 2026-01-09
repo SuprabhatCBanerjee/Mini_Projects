@@ -1,0 +1,21 @@
+# Core
+python-dotenv>=1.0.0
+requests>=2.31.0
+matplotlib>=3.8.0
+
+# API & UI
+fastapi>=0.110.0
+uvicorn>=0.29.0
+streamlit>=1.31.0
+
+# LangChain Ecosystem (PINNED — DO NOT MIX VERSIONS)
+langchain==0.3.4
+langchain-core==0.3.75
+langchain-openai==0.2.9
+langchain-huggingface==1.0.1
+
+# LangGraph
+langgraph==0.2.41
+
+# Vector Store / RAG
+chromadb>=0.4.24
